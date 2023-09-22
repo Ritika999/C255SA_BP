@@ -24,40 +24,22 @@ void setup() {
 
 void loop() {
   // draw a circle
-  display.clearDisplay();
-  display.drawCircle(50, 30, 30, WHITE);
-  display.display();
-  delay(1000);
+ 
 
   // fill a circle
-  display.clearDisplay();
-  display.fillCircle(50, 30, 30, WHITE);
-  display.display();
-  delay(1000);
+ 
 
   // draw a triangle
-  display.clearDisplay();
-  display.drawTriangle(50, 10, 0, 60, 60, 60, WHITE);
-  display.display();
-  delay(1000);
-
+  
+ 
   // fill a triangle
-  display.clearDisplay();
-  display.fillTriangle(50, 10, 0, 60, 60, 60, WHITE);
-  display.display();
-  delay(1000);
+  
 
   // draw a rectangle
-  display.clearDisplay();
-  display.drawRect(40, 20, 60, 40, WHITE);
-  display.display();
-  delay(1000);
+
 
   // fill a rectangle
-  display.clearDisplay();
-  display.fillRect(40, 20, 60, 40, WHITE);
-  display.display();
-  delay(1000);
+ 
 
 }
 
