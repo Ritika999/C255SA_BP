@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "author": "Tamanna Tadwal",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-esp32-devkit-v1", "id": "esp", "top": -25.73, "left": -196.5, "attrs": {} },
+    { "type": "board-ssd1306", "id": "oled2", "top": 15.5, "left": -43.64, "attrs": {} }
+  ],
+  "connections": [
+    [ "esp:TX0", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX0", "$serialMonitor:TX", "", [] ],
+    [ "esp:GND.2", "oled2:GND", "black", [ "h131.73", "v-151.89", "h48.84" ] ],
+    [ "esp:3V3", "oled2:VCC", "red", [ "v-0.77", "h45.55", "v-177.78", "h49.28" ] ],
+    [ "esp:D21", "oled2:SDA", "green", [ "h17.82", "v-49.95", "h95.49" ] ],
+    [ "esp:D22", "oled2:SCL", "green", [ "h12.54", "v-43.93", "h91.97" ] ]
+  ],
+  "dependencies": {}
+}
